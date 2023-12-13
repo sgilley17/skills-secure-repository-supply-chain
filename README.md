@@ -13,24 +13,34 @@ _Secure your supply chain, understand dependencies in your environment, know abo
 
 </header>
 
-## Step 3: Enable and trigger Dependabot security updates
+## Finish
 
-_Nice work enabling, viewing, and creating Dependabot alerts :sparkles:_
+_Congratulations friend, you've completed this course!_
 
-Enabling Dependabot alerts on our repository was a great step toward improving our code security, but we still had to manually select an alert and then manually select the option to create the pull request. It would be nice to further improve the automation and maintenance of our dependencies! Well, with Dependabot security updates, we can do just that.
+<img src="https://octodex.github.com/images/welcometocat.png" alt=celebrate width=300 align=right>
 
-**What are Dependabot security updates?**: When enabled, Dependabot will detect and fix vulnerable dependencies for you by opening pull requests automatically to resolve Dependabot alerts when they arise.
+Here's a recap of all the tasks you've accomplished in your repository:
 
-We manually created the pull request for the `Prototype Pollution in minimist` alert, but let's now enable Dependabot security updates to automate this process with the next alert!
+- You've learned how to view and use dependency graph.
+- You've learned how to enable and use Dependabot alerts.
+- You've learned how to enable and use Dependabot security updates.
+- You've learned how to enable and use Dependabot version updates.
 
-### :keyboard: Activity: Enable and trigger Dependabot security updates
+### Additional learning and resources
 
-1. Navigate to the `Settings` tab, select `Code security and analysis`, and enable the `Dependabot security updates`.
-1. Navigate to the `Pull requests` repository tab and select the newly created pull request titled **Bump axios from 0.21.1 to 0.21.2 in /code/src/AttendeeSite**.
-   - You may need to wait 30-60 seconds.
-1. Click the `Merge pull request` button.
-1. Click `Confirm merge`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+- [Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)
+- [Exploring the dependencies of a repository](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository)
+- [About supply chain security](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security)
+- [Dependabot alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)
+- [GitHub Advisory Database](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database)
+
+### What's next?
+
+- Learn more about securing your supply chain by reading: [Securing your supply chain](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security).
+- [We'd love to hear what you thought of this course](https://github.com/skills/.github/discussions).
+- [Learn another GitHub skill](https://github.com/skills).
+- [Read the Get started with GitHub docs](https://docs.github.com/en/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
